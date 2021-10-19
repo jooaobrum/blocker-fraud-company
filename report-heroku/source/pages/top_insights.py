@@ -27,7 +27,7 @@ def write():
 
             )
 
-        st.image('src/images/hypothesis_1.PNG')
+        st.image('source/images/hypothesis_1.PNG')
 
 
     elif option == 'When the origin new balance is equal zero and the old balance is greater than zero, it is more likely to be fraud.':
@@ -41,7 +41,7 @@ def write():
             )
 
         
-        st.image('src/images/hypothesis_9.PNG')
+        st.image('source/images/hypothesis_9.PNG')
 
     else:
         st.write(
@@ -59,7 +59,7 @@ def write():
 
             )
 
-        st.image('src/images/hypothesis_12.PNG')
+        st.image('source/images/hypothesis_12.PNG')
 
         st.write(
             """
@@ -68,7 +68,7 @@ def write():
             """
                 )
 
-        st.image('src/images/hypothesis_12_2.PNG') 
+        st.image('source/images/hypothesis_12_2.PNG') 
 
          
 

@@ -1,20 +1,20 @@
 # Import libraries
 import streamlit as st
-import src.pages.home
-import src.pages.results
-import src.pages.ceo_questions
-import src.pages.top_insights
-import src.pages.demo_app
-import src.pages.contact
+import source.pages.home
+import source.pages.results
+import source.pages.ceo_questions
+import source.pages.top_insights
+import source.pages.demo_app
+import source.pages.contact
 
 
 PAGES = {
-    "Home": src.pages.home,
-    "Results": src.pages.results,
-    "CEO Questions": src.pages.ceo_questions,
-    "Top Insights": src.pages.top_insights,
-    "Demo Web App": src.pages.demo_app,
-    "Contact": src.pages.contact,
+    "Home": source.pages.home,
+    "Results": source.pages.results,
+    "CEO Questions": source.pages.ceo_questions,
+    "Top Insights": source.pages.top_insights,
+    "Demo Web App": source.pages.demo_app,
+    "Contact": source.pages.contact,
 }
 
 
@@ -29,7 +29,7 @@ def main():
     with st.spinner(f'Loading {selection} ...'):
     	page.write()
 
-    st.sidebar.image("src/images/blocker-nobg.png", use_column_width=True)
+    st.sidebar.image("source/images/blocker-nobg.png", use_column_width=True)
     st.sidebar.title("About")
     st.sidebar.info(
         """
@@ -43,7 +43,7 @@ def main():
 	"""
     )
 
-    st.sidebar.image("src/images/joao-nobg.png", use_column_width=True)
+    st.sidebar.image("source/images/joao-nobg.png", use_column_width=True)
 
 
 if __name__ == "__main__":
