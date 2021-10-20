@@ -1,1 +1,1 @@
-web: streamlit run report-blockerfraud.py
+web: sh setup.sh && streamlit run report-blockerfraud.py
