@@ -15,7 +15,7 @@ def write():
 	## Demonstration of Blocker Fraud API:
 
 	In order to provide a simple solution, we developed an API on Heroku which can be used to classify wheter a transaction is fraudulent or legitimate.
-	The customer has transaction information based on activities on the page. With that in mind, we developed this demonstration via web app so that new transactions can be uploaded in CSV format and so our model generates a classification according to the information contained. 
+	The customer has transaction information based on activities on the page. With that in mind, we developed this demonstration via web app where new transactions can be uploaded in CSV format and then our model generates a classification according to the information contained on it. 
 
 
 	   """ )
