@@ -50,6 +50,11 @@ https://sejaumdatascientist.com/crie-uma-solucao-para-fraudes-em-transacoes-fina
 - Deploy API on Heroku
 - Deploy Report on Heroku
 
+### Request via API
+- Hosted at Heroku: https://blocker-fraud-api.herokuapp.com/blocker/predict
+
+### Report and API Demonstration
+- Hosted at Heroku:  https://blocker-fraud-report.herokuapp.com
 
 ## Authors
 
